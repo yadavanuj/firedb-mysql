@@ -1,9 +1,9 @@
-package com.pravisht.firedb.mysql;
+package com.github.yadavanuj.firedb.mysql;
 
-import com.pravisht.firedb.ConnectionConfig;
-import com.pravisht.firedb.FireDb;
-import com.pravisht.firedb.protocol.FireDbException;
-import com.pravisht.firedb.protocol.Packet;
+import com.github.yadavanuj.firedb.ConnectionConfig;
+import com.github.yadavanuj.firedb.FireDb;
+import com.github.yadavanuj.firedb.protocol.FireDbException;
+import com.github.yadavanuj.firedb.protocol.Packet;
 import org.javatuples.Pair;
 
 import java.util.Objects;

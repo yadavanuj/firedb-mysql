@@ -12,7 +12,7 @@ plugins {
     id 'maven-publish'
 }
 
-group 'com.pravisht.firedb'
+group 'com.github.yadavanuj.firedb'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -26,7 +26,7 @@ dependencies {
     implementation 'com.google.guava:guava:32.1.1-jre'
     implementation 'org.projectlombok:lombok:1.18.30'
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
-    implementation 'com.pravisht.firedb:firedb:1.0-SNAPSHOT'
+    implementation 'com.github.yadavanuj.firedb:firedb:1.0-SNAPSHOT'
     implementation 'mysql:mysql-connector-java:8.0.33'
     implementation 'com.fasterxml.jackson.core:jackson-core:2.16.0'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.16.0'
@@ -56,7 +56,7 @@ java {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'com.pravisht.firedb'
+            groupId = 'com.github.yadavanuj.firedb'
             artifactId = 'firedb-mysql'
             version = '1.0-SNAPSHOT'
 

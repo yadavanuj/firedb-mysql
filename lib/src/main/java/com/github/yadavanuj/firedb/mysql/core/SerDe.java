@@ -1,9 +1,9 @@
-package com.pravisht.firedb.mysql.core;
+package com.github.yadavanuj.firedb.mysql.core;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.pravisht.firedb.protocol.FireDbException;
-import com.pravisht.firedb.protocol.Packet;
+import com.github.yadavanuj.firedb.protocol.FireDbException;
+import com.github.yadavanuj.firedb.protocol.Packet;
 
 // TODO: Inject serde
 public class SerDe {

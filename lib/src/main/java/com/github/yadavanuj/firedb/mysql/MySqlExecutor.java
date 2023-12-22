@@ -1,9 +1,9 @@
-package com.pravisht.firedb.mysql;
+package com.github.yadavanuj.firedb.mysql;
 
-import com.pravisht.firedb.FireDb;
-import com.pravisht.firedb.mysql.core.PacketMapper;
-import com.pravisht.firedb.mysql.core.SerDe;
-import com.pravisht.firedb.protocol.Packet;
+import com.github.yadavanuj.firedb.FireDb;
+import com.github.yadavanuj.firedb.mysql.core.PacketMapper;
+import com.github.yadavanuj.firedb.mysql.core.SerDe;
+import com.github.yadavanuj.firedb.protocol.Packet;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;

@@ -1,4 +1,4 @@
-package com.pravisht.firedb.mysql.core;
+package com.github.yadavanuj.firedb.mysql.core;
 
 import java.util.Date;
 

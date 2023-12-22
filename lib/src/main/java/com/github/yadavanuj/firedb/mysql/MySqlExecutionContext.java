@@ -1,4 +1,4 @@
-package com.pravisht.firedb.mysql;
+package com.github.yadavanuj.firedb.mysql;
 
 import lombok.Builder;
 import lombok.Getter;

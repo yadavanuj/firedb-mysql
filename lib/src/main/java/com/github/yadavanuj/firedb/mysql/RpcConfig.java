@@ -1,6 +1,6 @@
-package com.pravisht.firedb.mysql;
+package com.github.yadavanuj.firedb.mysql;
 
-import com.pravisht.firedb.protocol.Packet;
+import com.github.yadavanuj.firedb.protocol.Packet;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NonNull;

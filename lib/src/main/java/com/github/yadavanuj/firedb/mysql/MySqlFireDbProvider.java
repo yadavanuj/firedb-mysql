@@ -1,9 +1,9 @@
-package com.pravisht.firedb.mysql;
+package com.github.yadavanuj.firedb.mysql;
 
-import com.pravisht.firedb.ConnectionConfig;
-import com.pravisht.firedb.FireDb;
 
-import java.util.ArrayList;
+import com.github.yadavanuj.firedb.ConnectionConfig;
+import com.github.yadavanuj.firedb.FireDb;
+
 import java.util.List;
 
 public class MySqlFireDbProvider implements FireDb.FireDbProvider {

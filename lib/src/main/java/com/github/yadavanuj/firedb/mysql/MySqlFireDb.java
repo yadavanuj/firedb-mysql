@@ -1,7 +1,8 @@
-package com.pravisht.firedb.mysql;
+package com.github.yadavanuj.firedb.mysql;
 
-import com.pravisht.firedb.ConnectionConfig;
-import com.pravisht.firedb.FireDb;
+
+import com.github.yadavanuj.firedb.ConnectionConfig;
+import com.github.yadavanuj.firedb.FireDb;
 
 public class MySqlFireDb implements FireDb {
     private final ConnectionConfig<RpcConfig> connectionConfig;

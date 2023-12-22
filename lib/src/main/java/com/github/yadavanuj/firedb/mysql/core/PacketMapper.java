@@ -1,7 +1,7 @@
-package com.pravisht.firedb.mysql.core;
+package com.github.yadavanuj.firedb.mysql.core;
 
-import com.pravisht.firedb.protocol.FireDbException;
-import com.pravisht.firedb.protocol.Packet;
+import com.github.yadavanuj.firedb.protocol.FireDbException;
+import com.github.yadavanuj.firedb.protocol.Packet;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
